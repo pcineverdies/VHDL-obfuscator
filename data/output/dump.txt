@@ -1,0 +1,58 @@
+[
+	{
+		"original_signal": "full_adder",
+		"obfuscated_signal" : "etJzZdwThrqkyJsTdFrqEvWZKSqmOy"
+	},
+	{
+		"original_signal": "a",
+		"obfuscated_signal" : "TVtGGDCsMNKyggnVxkYRNpSBNdAJYd"
+	},
+	{
+		"original_signal": "b",
+		"obfuscated_signal" : "TyHNIowRBRqYjvPsspDEDCAPQepPbF"
+	},
+	{
+		"original_signal": "ci",
+		"obfuscated_signal" : "WODcpGQslmJMMMzPrgYYQpmaoMJoLy"
+	},
+	{
+		"original_signal": "s",
+		"obfuscated_signal" : "XvfEJqErJUQlxuqTNvbNUUPqwFSXqs"
+	},
+	{
+		"original_signal": "co",
+		"obfuscated_signal" : "cavyAzdrtXTEFGLUPLFuNHQCPNeXIQ"
+	},
+	{
+		"original_signal": "behavioural",
+		"obfuscated_signal" : "DIkgYCRfsQCVrMjEqXBrlYsjTmwZIS"
+	},
+	{
+		"original_signal": "comb_logic",
+		"obfuscated_signal" : "wnaFArneyvQxbJybWzsIHpwJnhGuhm"
+	},
+	{
+		"original_signal": "ripple_carry_adder",
+		"obfuscated_signal" : "IYWzTWYbhfpNPXsqZpiZRGRdwHvvuO"
+	},
+	{
+		"original_signal": "n",
+		"obfuscated_signal" : "JGmEUiqRQeNgWlIqyEyQBLjgclqIbh"
+	},
+	{
+		"original_signal": "structural",
+		"obfuscated_signal" : "WpCJAMngkESLRLgdbQgDQRxfmzrSAy"
+	},
+	{
+		"original_signal": "adder_generate",
+		"obfuscated_signal" : "xFDHDxBFuaSwGKEDNdynebKHJVOQzk"
+	},
+	{
+		"original_signal": "i",
+		"obfuscated_signal" : "jOTJHBwgfLUhbGIyQNzIVtTgCOgLeG"
+	},
+	{
+		"original_signal": "full_adder_i",
+		"obfuscated_signal" : "YlKZUrwcvxiLVCZOLjbTcTUUhKLXKF"
+	},
+]

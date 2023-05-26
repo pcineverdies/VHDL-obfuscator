@@ -1,0 +1,66 @@
+[
+	{
+		"original_signal": "full_adder",
+		"obfuscated_signal" : "mNLdEpnoQNIhSdJtoYjKJOiYEUQSIj"
+	},
+	{
+		"original_signal": "a",
+		"obfuscated_signal" : "HWbXTSjzYjnrQQSsvhgGwfabyLmogr"
+	},
+	{
+		"original_signal": "b",
+		"obfuscated_signal" : "HHoVWeHgxIAcjFHBDscQeIBSNwoMML"
+	},
+	{
+		"original_signal": "ci",
+		"obfuscated_signal" : "WevVdbXPoWaohnXNHWFihtQOGIXIjC"
+	},
+	{
+		"original_signal": "s",
+		"obfuscated_signal" : "jEYQdjZagiTIwgGLCdycmshUCaUHtD"
+	},
+	{
+		"original_signal": "co",
+		"obfuscated_signal" : "vKcmhOGlQzoVdLSEiERCMyQxFpqYoi"
+	},
+	{
+		"original_signal": "behavioural",
+		"obfuscated_signal" : "mtEbTILrbfzrhaPlZNZIWBYVDTqkde"
+	},
+	{
+		"original_signal": "comb_logic",
+		"obfuscated_signal" : "EpCTHevvsvmyTqTWczvGeTqISOOacz"
+	},
+	{
+		"original_signal": "ripple_carry_adder",
+		"obfuscated_signal" : "oGfZXCpKvdPCkFBRGOhbUELMbIrJPK"
+	},
+	{
+		"original_signal": "n",
+		"obfuscated_signal" : "zrsCwuDnrEofFmehDHqxlMQVfJfUCV"
+	},
+	{
+		"original_signal": "structural",
+		"obfuscated_signal" : "XJpOsHOeIWgIyxALUbwvDwRmrAgZia"
+	},
+	{
+		"original_signal": "temporary_sum",
+		"obfuscated_signal" : "gECEVBpggcvHVNpYZoOqqgNyvzNAgq"
+	},
+	{
+		"original_signal": "temporary_carry",
+		"obfuscated_signal" : "xdmJiUsyKGvnIludTaQUTnBftyqTrl"
+	},
+	{
+		"original_signal": "adder_generate",
+		"obfuscated_signal" : "ssKbXhBhSoyxCWtTQZuaMeDCAntYiN"
+	},
+	{
+		"original_signal": "i",
+		"obfuscated_signal" : "QCwykmJbuNCpUXZgxiJSpoFuWOvPIY"
+	},
+	{
+		"original_signal": "full_adder_i",
+		"obfuscated_signal" : "mJhRJYfqkuQjCTzXClOGytpWQboyCB"
+	},
+]

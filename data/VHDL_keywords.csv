@@ -112,3 +112,5 @@ shift_right
 log2
 ceil
 floor
+work
+to_integer

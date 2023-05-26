@@ -2,13 +2,14 @@ import re
 from obfuscated_signal import obfuscated_signal
 from utils import get_keywords
 
-source_directory = "test/div/"
-output_directory = "test/out/"
-source_to_obfusacte = "src/files_to_obfuscate.txt"
+source_directory = "data/input/"
+output_directory = "data/output/"
+source_to_obfusacte = "data/files_to_obfuscate.txt"
 size_obfuscation = 30
 
 # Get VHDL keywords in lowercase
-keywords = get_keywords("src/VHDL_keywords.csv")
+keywords = get_keywords("data/VHDL_keywords.csv")
+keywords = keywords + get_keywords("data/personal_keywords.csv")
 
 signals = []
 
@@ -22,6 +23,8 @@ with open(source_to_obfusacte, "rt") as files_to_obfuscate:
         with open(next_file, "rt") as file_to_obfuscate:
             # Read all the file
             text_file = file_to_obfuscate.read()
+            # Remove comments
+            text_file = re.sub(re.compile("--.*?\n" ) ,"\n" ,text_file) 
             # Get all its tokens
             tokens_file = re.findall(r"\w+", text_file)
             # Put all the tokens in lowercase
@@ -61,3 +64,12 @@ with open(source_to_obfusacte, "rt") as files_to_obfuscate:
                         insenstive_regex = re.compile(regex, re.IGNORECASE)
                         line_input = insenstive_regex.sub(obf.obfuscated_signal, line_input)
                     file_output.write(line_input)
+
+# Dump json containing the old and new signals in out_directory/dump.txt
+# The result is an array of objects like {original_signal : "...", obfuscated_signal: "..."}
+with open(output_directory + "dump.txt", "wt") as file_dump:
+    file_dump.write("[\n")
+    for obf in obfuscated_signals:
+        line = f"\t{{\n\t\t\"original_signal\": \"{obf.signal}\",\n\t\t\"obfuscated_signal\" : \"{obf.obfuscated_signal}\"\n\t}},\n"
+        file_dump.write(line)
+    file_dump.write("]")
