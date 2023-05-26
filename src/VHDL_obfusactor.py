@@ -8,8 +8,8 @@ source_to_obfusacte = "data/files_to_obfuscate.txt"
 size_obfuscation = 30
 
 # Get VHDL keywords in lowercase
-keywords = get_keywords("data/VHDL_keywords.csv")
-keywords = keywords + get_keywords("data/personal_keywords.csv")
+keywords = get_keywords("data/VHDL_keywords.txt")
+keywords = keywords + get_keywords("data/personal_keywords.txt")
 
 signals = []
 
